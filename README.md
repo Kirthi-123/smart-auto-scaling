@@ -4,17 +4,17 @@ An intelligent system that monitors real-time CPU usage, predicts future load us
 
 ---
 
-## 🚀 Features
+##  Features
 
-✅ Real-time CPU usage monitoring using `psutil`  
-✅ Predicts future CPU demand using Polynomial Regression (`scikit-learn`)  
-✅ Auto-scaling logic that decides when to scale up or down  
-✅ Simulates scaling by launching/stopping worker processes  
-✅ Visualizes actual vs. predicted CPU usage using `matplotlib`
+ Real-time CPU usage monitoring using `psutil`  
+ Predicts future CPU demand using Polynomial Regression (`scikit-learn`)  
+ Auto-scaling logic that decides when to scale up or down  
+ Simulates scaling by launching/stopping worker processes  
+ Visualizes actual vs. predicted CPU usage using `matplotlib`
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 
@@ -36,14 +36,14 @@ smart-auto-scaling/
 
 ---
 
-## 💻 How to Run
+## How to Run
 
-### 1️⃣ Install Dependencies
+### 1 Install Dependencies
 ```bash
 pip install -r requirements.txt
 ````
 
-### 2️⃣ Start the Auto-Scaling System
+### 2️ Start the Auto-Scaling System
 
 ```bash
 python main.py
@@ -59,17 +59,17 @@ If scaling up, `worker.py` is launched to simulate handling the increased load.
 
 ---
 
-## 📊 Output Example
+##  Output Example
 
 ```
 Starting CPU monitoring...
 CPU Usage: 22.5%
 ...
-✅ CPU data saved to cpu_data.csv
-📈 CPU Prediction Plot displayed
-📊 Predicted Average CPU: 81.42%
+ CPU data saved to cpu_data.csv
+ CPU Prediction Plot displayed
+ Predicted Average CPU: 81.42%
 ⚠️  Predicted High Load - SCALE UP
-🚀 Scaling up... Launching extra worker
+ Scaling up... Launching extra worker
 ```
 
 ---
